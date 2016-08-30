@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C934C31D755F55004E3544 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C934C21D755F55004E3544 /* AppDelegate.swift */; };
+		18C934C51D755F55004E3544 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C934C41D755F55004E3544 /* ViewController.swift */; };
+		18C934C81D755F55004E3544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C934C61D755F55004E3544 /* Main.storyboard */; };
+		18C934CA1D755F55004E3544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C934C91D755F55004E3544 /* Assets.xcassets */; };
+		18C934CD1D755F55004E3544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C934CB1D755F55004E3544 /* LaunchScreen.storyboard */; };
+		18C934D81D755F55004E3544 /* VisionGapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C934D71D755F55004E3544 /* VisionGapTests.swift */; };
+		18C934E31D755F55004E3544 /* VisionGapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C934E21D755F55004E3544 /* VisionGapUITests.swift */; };
+		18C934F21D7564A5004E3544 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C934F01D7564A5004E3544 /* MyTableViewCell.swift */; };
+		18C934F31D7564A5004E3544 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C934F11D7564A5004E3544 /* MyTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18C934D41D755F55004E3544 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C934B71D755F55004E3544 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C934BE1D755F55004E3544;
+			remoteInfo = VisionGap;
+		};
+		18C934DF1D755F55004E3544 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C934B71D755F55004E3544 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C934BE1D755F55004E3544;
+			remoteInfo = VisionGap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18C934BF1D755F55004E3544 /* VisionGap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionGap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C934C21D755F55004E3544 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18C934C41D755F55004E3544 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18C934C71D755F55004E3544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C934C91D755F55004E3544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C934CC1D755F55004E3544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C934CE1D755F55004E3544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C934D31D755F55004E3544 /* VisionGapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionGapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C934D71D755F55004E3544 /* VisionGapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionGapTests.swift; sourceTree = "<group>"; };
+		18C934D91D755F55004E3544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C934DE1D755F55004E3544 /* VisionGapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionGapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C934E21D755F55004E3544 /* VisionGapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionGapUITests.swift; sourceTree = "<group>"; };
+		18C934E41D755F55004E3544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C934F01D7564A5004E3544 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		18C934F11D7564A5004E3544 /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C934BC1D755F55004E3544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C934D01D755F55004E3544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C934DB1D755F55004E3544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C934B61D755F55004E3544 = {
+			isa = PBXGroup;
+			children = (
+				18C934C11D755F55004E3544 /* VisionGap */,
+				18C934D61D755F55004E3544 /* VisionGapTests */,
+				18C934E11D755F55004E3544 /* VisionGapUITests */,
+				18C934C01D755F55004E3544 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18C934C01D755F55004E3544 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C934BF1D755F55004E3544 /* VisionGap.app */,
+				18C934D31D755F55004E3544 /* VisionGapTests.xctest */,
+				18C934DE1D755F55004E3544 /* VisionGapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C934C11D755F55004E3544 /* VisionGap */ = {
+			isa = PBXGroup;
+			children = (
+				18C934C21D755F55004E3544 /* AppDelegate.swift */,
+				18C934C41D755F55004E3544 /* ViewController.swift */,
+				18C934F01D7564A5004E3544 /* MyTableViewCell.swift */,
+				18C934F11D7564A5004E3544 /* MyTableViewCell.xib */,
+				18C934C61D755F55004E3544 /* Main.storyboard */,
+				18C934C91D755F55004E3544 /* Assets.xcassets */,
+				18C934CB1D755F55004E3544 /* LaunchScreen.storyboard */,
+				18C934CE1D755F55004E3544 /* Info.plist */,
+			);
+			path = VisionGap;
+			sourceTree = "<group>";
+		};
+		18C934D61D755F55004E3544 /* VisionGapTests */ = {
+			isa = PBXGroup;
+			children = (
+				18C934D71D755F55004E3544 /* VisionGapTests.swift */,
+				18C934D91D755F55004E3544 /* Info.plist */,
+			);
+			path = VisionGapTests;
+			sourceTree = "<group>";
+		};
+		18C934E11D755F55004E3544 /* VisionGapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18C934E21D755F55004E3544 /* VisionGapUITests.swift */,
+				18C934E41D755F55004E3544 /* Info.plist */,
+			);
+			path = VisionGapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C934BE1D755F55004E3544 /* VisionGap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C934E71D755F55004E3544 /* Build configuration list for PBXNativeTarget "VisionGap" */;
+			buildPhases = (
+				18C934BB1D755F55004E3544 /* Sources */,
+				18C934BC1D755F55004E3544 /* Frameworks */,
+				18C934BD1D755F55004E3544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisionGap;
+			productName = VisionGap;
+			productReference = 18C934BF1D755F55004E3544 /* VisionGap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C934D21D755F55004E3544 /* VisionGapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C934EA1D755F55004E3544 /* Build configuration list for PBXNativeTarget "VisionGapTests" */;
+			buildPhases = (
+				18C934CF1D755F55004E3544 /* Sources */,
+				18C934D01D755F55004E3544 /* Frameworks */,
+				18C934D11D755F55004E3544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C934D51D755F55004E3544 /* PBXTargetDependency */,
+			);
+			name = VisionGapTests;
+			productName = VisionGapTests;
+			productReference = 18C934D31D755F55004E3544 /* VisionGapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18C934DD1D755F55004E3544 /* VisionGapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C934ED1D755F55004E3544 /* Build configuration list for PBXNativeTarget "VisionGapUITests" */;
+			buildPhases = (
+				18C934DA1D755F55004E3544 /* Sources */,
+				18C934DB1D755F55004E3544 /* Frameworks */,
+				18C934DC1D755F55004E3544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C934E01D755F55004E3544 /* PBXTargetDependency */,
+			);
+			name = VisionGapUITests;
+			productName = VisionGapUITests;
+			productReference = 18C934DE1D755F55004E3544 /* VisionGapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C934B71D755F55004E3544 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Absolute;
+				TargetAttributes = {
+					18C934BE1D755F55004E3544 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = EBK2L3T55L;
+					};
+					18C934D21D755F55004E3544 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 18C934BE1D755F55004E3544;
+					};
+					18C934DD1D755F55004E3544 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 18C934BE1D755F55004E3544;
+					};
+				};
+			};
+			buildConfigurationList = 18C934BA1D755F55004E3544 /* Build configuration list for PBXProject "VisionGap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C934B61D755F55004E3544;
+			productRefGroup = 18C934C01D755F55004E3544 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C934BE1D755F55004E3544 /* VisionGap */,
+				18C934D21D755F55004E3544 /* VisionGapTests */,
+				18C934DD1D755F55004E3544 /* VisionGapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C934BD1D755F55004E3544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C934CD1D755F55004E3544 /* LaunchScreen.storyboard in Resources */,
+				18C934F31D7564A5004E3544 /* MyTableViewCell.xib in Resources */,
+				18C934CA1D755F55004E3544 /* Assets.xcassets in Resources */,
+				18C934C81D755F55004E3544 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C934D11D755F55004E3544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C934DC1D755F55004E3544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C934BB1D755F55004E3544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C934C51D755F55004E3544 /* ViewController.swift in Sources */,
+				18C934C31D755F55004E3544 /* AppDelegate.swift in Sources */,
+				18C934F21D7564A5004E3544 /* MyTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C934CF1D755F55004E3544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C934D81D755F55004E3544 /* VisionGapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C934DA1D755F55004E3544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C934E31D755F55004E3544 /* VisionGapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C934D51D755F55004E3544 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C934BE1D755F55004E3544 /* VisionGap */;
+			targetProxy = 18C934D41D755F55004E3544 /* PBXContainerItemProxy */;
+		};
+		18C934E01D755F55004E3544 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C934BE1D755F55004E3544 /* VisionGap */;
+			targetProxy = 18C934DF1D755F55004E3544 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18C934C61D755F55004E3544 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C934C71D755F55004E3544 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18C934CB1D755F55004E3544 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C934CC1D755F55004E3544 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C934E51D755F55004E3544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18C934E61D755F55004E3544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C934E81D755F55004E3544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = VisionGap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Absolute.VisionGap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18C934E91D755F55004E3544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = VisionGap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Absolute.VisionGap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18C934EB1D755F55004E3544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VisionGapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Absolute.VisionGapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionGap.app/VisionGap";
+			};
+			name = Debug;
+		};
+		18C934EC1D755F55004E3544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VisionGapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Absolute.VisionGapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionGap.app/VisionGap";
+			};
+			name = Release;
+		};
+		18C934EE1D755F55004E3544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VisionGapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Absolute.VisionGapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VisionGap;
+			};
+			name = Debug;
+		};
+		18C934EF1D755F55004E3544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VisionGapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Absolute.VisionGapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VisionGap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C934BA1D755F55004E3544 /* Build configuration list for PBXProject "VisionGap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C934E51D755F55004E3544 /* Debug */,
+				18C934E61D755F55004E3544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C934E71D755F55004E3544 /* Build configuration list for PBXNativeTarget "VisionGap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C934E81D755F55004E3544 /* Debug */,
+				18C934E91D755F55004E3544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C934EA1D755F55004E3544 /* Build configuration list for PBXNativeTarget "VisionGapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C934EB1D755F55004E3544 /* Debug */,
+				18C934EC1D755F55004E3544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C934ED1D755F55004E3544 /* Build configuration list for PBXNativeTarget "VisionGapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C934EE1D755F55004E3544 /* Debug */,
+				18C934EF1D755F55004E3544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C934B71D755F55004E3544 /* Project object */;
+}
